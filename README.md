@@ -7,5 +7,5 @@ console.log('I can write JS here.');
 ```
 
 ```cpp
-std.cout << "Hello World";
+std::cout << "Hello World";
 ```
