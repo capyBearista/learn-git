@@ -1,0 +1,21 @@
+# ignore all files ending with .o or .a
+*.[oa]
+
+# ignore all files ending with ~ (usually temp files)
+*~ 
+
+# allow tracking of lib.a despite above rule
+!lib.a
+
+# ignore TODO file ONLY in . but not subdir/TODO
+/TODO
+
+# ignore all files in ANY dir named build/
+build/
+
+# ignore doc/notes.txt, but NOT doc/server/arch.txt
+doc/*.txt
+
+# ignore all .pdf files in doc/ dir and any of its subdirs
+doc/**/*.pdf
+# first two asterisks specify dirs, third asterisk for file name
