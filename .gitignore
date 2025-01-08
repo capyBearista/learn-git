@@ -19,3 +19,6 @@ doc/*.txt
 # ignore all .pdf files in doc/ dir and any of its subdirs
 doc/**/*.pdf
 # first two asterisks specify dirs, third asterisk for file name
+
+# ignore .vscode folder
+.vscode
