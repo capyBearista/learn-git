@@ -22,3 +22,6 @@ doc/**/*.pdf
 
 # ignore .vscode folder
 .vscode
+
+# ignore contacts.txt within the contacts-db-program
+contacts.txt
